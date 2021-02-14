@@ -8,15 +8,12 @@
 <h1>Registration Form</h1>
 
 <br>
-<!-- form -->
 <form action="/submit.php" target="_self" method="Post">
 
 <label for="fname">Name</label>
 <input type="text" name="fname">
 
 <br>
-
-<!-- Radio -->
 <input type="radio" name="gender" id="male" value="male">
 <label for="male">Male</label>
 
@@ -26,7 +23,7 @@
 
 <br>
 
-<label for="Bdate">DoB</label>
+<label for="Bdate">DOB</label>
 <input type="date" name="Bdate" id="Bdate">
 
 <br>
@@ -34,7 +31,9 @@
 <label for="religion">Religion</label>
 <select id="religion" name="Religion">
 <option value="Islam">Islam</option>
+<option value="Islam">Cristianity</option>
 <option value="Hindu">Hindu</option>
+<option value="Islam">Buddhism</option>
 </select>
 
 <br>
@@ -63,16 +62,13 @@
 
 <br>
 
-<label for="phone">Enter your phone number:</label>
+<label for="phone">Phone number:</label>
   <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
 
   <br>
 
-<label for="email">Enter your email:</label>
+<label for="email">Email:</label>
         <input type="email" id="email" name="email">
-<br>
-
-<a href="https://www.w3schools.com/html/html_form_input_types.asp" target="_blank">Personal Information</a>
 
 <br>
 
@@ -80,8 +76,8 @@
 
 <br>
 
-<label for="quantity">SSC YEAR</label>
-  <input type="number" id="quantity" name="quantity" min="2014" max="2017">
+<label for="SSC">SSC YEAR</label>
+  <input type="number" id="SSC" name="SSC" min="2014" max="2017">
 
 <br>
 
@@ -89,8 +85,8 @@
 <input type="text" name="fname">
 
 <br>
-<label for="quantity">HSC YEAR</label>
-  <input type="number" id="quantity" name="quantity" min="2010" max="2020"> <br>
+<label for="HSC">HSC YEAR</label>
+  <input type="number" id="HSC" name="HSC" min="2010" max="2020"> <br>
 <label for="fname">HSC Institution</label>
 <input type="text" name="fname">
 
